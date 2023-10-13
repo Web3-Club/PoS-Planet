@@ -1,4 +1,4 @@
-# Chain-Farm
+# ChainFarm
 
 ## 简介
 
