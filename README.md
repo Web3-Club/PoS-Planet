@@ -4,11 +4,11 @@
 
 
 <h2 align="center">
-  🧑‍🌾
+  🧑‍🌾-🪙-🌾
 </h2>
 
 <h1 align="center">
-  Just PoS the new planet in year of 3023. 
+  🪐 Just PoS the new planet in year of 3023. 
 </h1>
 
 <h2 align="center">
