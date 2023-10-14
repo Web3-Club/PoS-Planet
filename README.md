@@ -209,3 +209,14 @@
 ## 魔法种子融合
 
   玩家可以尝试将不同属性的种子进行融合，创造出具有多种属性的特殊种子。这些特殊种子可以在多种属性的土地上生长，带来丰富多样的收获和效果。
+
+
+
+
+
+
+
+##  ❤️ 项目贡献者
+**永远感谢他们为本项目所作出的贡献！**
+
+[![contrib graph](https://contrib.rocks/image?repo=Web3-Club/Chain-Farm)](https://github.com/Web3-Club/Chain-Farm/graphs/contributors)
