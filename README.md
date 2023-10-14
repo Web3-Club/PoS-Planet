@@ -8,7 +8,7 @@
 </h2>
 
 <h1 align="center">
-  🍚 Reduce Food Waste, Blockchain deal it First.
+  Just PoS the new planet in year of 3023. 
 </h1>
 
 <h2 align="center">
