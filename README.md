@@ -278,4 +278,4 @@ If you have any questions or concerns about this project, please contact the dev
 
 ## 参考文献及资料
 
-- [1] []()
+- [1] [开放世界- 维基百科，自由的百科全书](https://zh.wikipedia.org/zh-hans/%E9%96%8B%E6%94%BE%E4%B8%96%E7%95%8C)
