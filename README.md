@@ -12,14 +12,6 @@
 </h1>
 
 
-
-![chainfarm](https://github.com/Web3-Club/Chain-Farm/assets/111333575/ed586a92-8491-4688-87f2-d3b51b06bb8b)
-
-<br>
-<br>
-<br>
-
-
 <h1 align="center">
   <span style="font-size: 32px;"> 
   人类的面前有两条路：<br>
@@ -28,6 +20,13 @@
     <br>
   </span>
 </h1>                    
+
+
+![chainfarm](https://github.com/Web3-Club/Chain-Farm/assets/111333575/ed586a92-8491-4688-87f2-d3b51b06bb8b)
+
+<br>
+<br>
+<br>
 
 
 <h2 align="center">
