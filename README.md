@@ -21,7 +21,10 @@
 
 
 <h1 align="center">
-  <span style="font-size: 32px;"> 人类的面前有两条路：一条向外，通往星辰大海；一条对内，通往虚拟现实。</span>
+  <span style="font-size: 32px;"> 
+    人类的面前有两条路：
+    一条向外，通往星辰大海；
+    一条对内，通往虚拟现实。</span>
 </h1>                    
 
 
