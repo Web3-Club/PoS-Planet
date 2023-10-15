@@ -243,3 +243,30 @@
 **永远感谢他们为本项目所作出的贡献！**
 
 [![contrib graph](https://contrib.rocks/image?repo=Web3-Club/Chain-Farm)](https://github.com/Web3-Club/Chain-Farm/graphs/contributors)
+
+
+
+## Disclaimer
+
+This project is a work in progress and is not yet ready for public use. It is provided as-is and without warranty of any kind, either express or implied.
+
+The developers of this project are not responsible for any losses or damages that may arise from the use of this project.
+
+Users should be aware of the following risks before using this project:
+
+- The project is still under development and may contain bugs or errors.
+- The project is not yet fully secure and may be vulnerable to attack.
+- The project is not yet fully compliant with all applicable laws and regulations.
+- Users should use this project at their own risk.
+
+### Additional Terms and Conditions
+
+In addition to the above disclaimer, users of this project agree to the following terms and conditions:
+
+- Users are responsible for their own actions when using this project.
+- Users agree not to use this project for any illegal or harmful purposes.
+- Users agree to indemnify the developers of this project from any losses or damages that may arise from the use of this project.
+
+### Contact Information
+
+If you have any questions or concerns about this project, please contact the developers.
