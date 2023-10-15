@@ -251,7 +251,7 @@
 
 
 
-## Disclaimer
+## ⚠️ Disclaimer
 
 This project is a work in progress and is not yet ready for public use. It is provided as-is and without warranty of any kind, either express or implied.
 
