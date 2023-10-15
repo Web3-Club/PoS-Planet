@@ -6,9 +6,9 @@
   🪐 Buidl PoS the new planet in year of 3023. 
 </h2>
 
-<h2 align="center">
+<h3 align="center">
   基于 <b> Starknet-Dojo开发的 </b> 的科幻开放世界<sup>[1]</sup>全链游戏
-</h2>
+</h3>
 
 <p align="center">
   <a href="https://github.com/yanboishere/Chain.Food/blob/master/LICENSE">
