@@ -231,6 +231,13 @@
 [![contrib graph](https://contrib.rocks/image?repo=Web3-Club/Chain-Farm)](https://github.com/Web3-Club/Chain-Farm/graphs/contributors)
 
 
+## 我们为什么要做这款游戏？
+
+一直以来 社会对区块链世界中 我们对于PoW体系下所产生的 **电力能源损失** 产生的批判 始终没有暂停过。
+
+比特币的PoW机制
+
+
 
 ## ⚠️ Disclaimer
 
