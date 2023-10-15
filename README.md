@@ -37,7 +37,7 @@
 
 
 
-## 简介
+## 游戏简介
 
 "光明的未来和毁灭的深渊，这两个选项都略显极端，技术从来都是中性的，无谓善恶，掌握在不同的人手里，才会导致迥异的结局。"
 
@@ -60,21 +60,6 @@
 <br>
 <br>
 <br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -275,9 +260,7 @@ In addition to the above disclaimer, users of this project agree to the followin
 
 If you have any questions or concerns about this project, please contact the developers.
 
-
 ## 参考文献及资料
-
 
 <div id="refer-anchor-1"></div>
  - [1] [百度学术](http://xueshu.baidu.com/)(https://zh.wikipedia.org/zh-hans/%E9%96%8B%E6%94%BE%E4%B8%96%E7%95%8C)
