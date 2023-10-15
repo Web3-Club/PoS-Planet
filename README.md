@@ -8,7 +8,7 @@
 </h2>
 
 <h1 align="center">
-  🪐 Just PoS the new planet in year of 3023. 
+  🪐 Just ALL PoS the new planet in year of 3023. 
 </h1>
 
 
