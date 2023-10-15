@@ -280,4 +280,4 @@ If you have any questions or concerns about this project, please contact the dev
 
 
 <div id="refer-anchor-1"></div>
-- [1] [百度学术](http://xueshu.baidu.com/)(https://zh.wikipedia.org/zh-hans/%E9%96%8B%E6%94%BE%E4%B8%96%E7%95%8C)
+[百度学术](http://xueshu.baidu.com/)(https://zh.wikipedia.org/zh-hans/%E9%96%8B%E6%94%BE%E4%B8%96%E7%95%8C)
