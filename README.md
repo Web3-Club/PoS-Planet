@@ -2,11 +2,6 @@
   <span style="font-size: 32px;">PoS Planet</span>
 </h1>
 
-
-<h2 align="center">
-  🧑‍🌾-🪙-🌾
-</h2>
-
 <h2 align="center">
   🪐 Buidl PoS the new planet in year of 3023. 
 </h2>
