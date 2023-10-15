@@ -17,6 +17,13 @@
 <br>
 <br>
 
+<span style="font-size: 32px;"> 
+  人类的面前有两条路：<br>
+    <br>
+    一条向外，通往星辰大海；一条对内，通往虚拟现实。
+  </span>
+</h1>      
+
 
 <h2 align="center">
   基于 <b> Starknet-Dojo </b> 的科幻开放世界<sup>[1]</sup>全链游戏
