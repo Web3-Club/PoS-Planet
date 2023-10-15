@@ -19,7 +19,7 @@
 
 
 <h2 align="center">
-  基于 <b> Starknet-Dojo </b> 的开放世界科幻全链游戏
+  基于 <b> Starknet-Dojo </b> 的科幻开放世界<sup>[1]</sup>全链游戏
 </h2>
 
 <p align="center">
@@ -274,3 +274,8 @@ In addition to the above disclaimer, users of this project agree to the followin
 ### Contact Information
 
 If you have any questions or concerns about this project, please contact the developers.
+
+
+## 参考文献及资料
+
+- [1] []()
