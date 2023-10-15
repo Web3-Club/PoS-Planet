@@ -1,5 +1,8 @@
-mod components;
-mod systems;
-mod tests;
-mod constants;
-mod events;
+mod models;
+
+mod systems {
+    // example with #[system] decorator
+    mod land;
+}
+
+mod utils;
