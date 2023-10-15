@@ -1,5 +1,5 @@
 <h1 align="center">
-  <span style="font-size: 32px;">PoS Planet/span>
+  <span style="font-size: 32px;">PoS Planet</span>
 </h1>
 
 
