@@ -22,11 +22,9 @@
 
 <h1 align="center">
   <span style="font-size: 32px;"> 
-    <div id="refer-anchor-1">
   人类的面前有两条路：<br>
     <br>
-    一条向外，通往星辰大海；一条对内，通往虚拟现实。
-  </div>
+    一条向外，通往星辰大海；一条对内，通往虚拟现实。[<sup>1</sup>](#refer-anchor-1)
     <br>
     ———— 
   </span>
