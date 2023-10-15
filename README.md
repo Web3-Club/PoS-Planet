@@ -1,5 +1,5 @@
 <h1 align="center">
-  <span style="font-size: 32px;">Chain Farm</span>
+  <span style="font-size: 32px;">PoS Planet Farm</span>
 </h1>
 
 
