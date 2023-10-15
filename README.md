@@ -6,19 +6,6 @@
   🪐 Buidl PoS the new planet in year of 3023. 
 </h2>
 
-![chainfarm](https://github.com/Web3-Club/Chain-Farm/assets/111333575/ed586a92-8491-4688-87f2-d3b51b06bb8b)
-
-<br>
-<br>
-<br>
-
-
-  > 人类的面前有两条路：
-
-  > 一条向外，通往星辰大海；一条对内，通往虚拟现实。
-  
-
-
 <h2 align="center">
   基于 <b> Starknet-Dojo开发的 </b> 的科幻开放世界<sup>[1]</sup>全链游戏
 </h2>
@@ -34,6 +21,21 @@
     <img src="https://img.shields.io/github/watchers/Web3-Club/Chain-Farm.svg?style=social&label=Watch" alt="GitHub watchers">
   </a>
 </p>
+
+
+![chainfarm](https://github.com/Web3-Club/Chain-Farm/assets/111333575/ed586a92-8491-4688-87f2-d3b51b06bb8b)
+
+<br>
+<br>
+<br>
+
+
+  > 人类的面前有两条路：
+
+  > 一条向外，通往星辰大海；一条对内，通往虚拟现实。
+  
+
+
 
 
 
