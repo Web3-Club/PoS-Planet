@@ -3,7 +3,7 @@
 </h1>
 
 <h2 align="center">
-  🪐 Buidl PoS the new planet in year of 3023. 
+  🪐 Build PoS the new planet in the year 3023. 
 </h2>
 
 <h3 align="center">
