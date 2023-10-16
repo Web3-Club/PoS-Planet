@@ -12,6 +12,7 @@ trait ILandActions<TContractState> {
         self: @TContractState, seed: felt252, growth_time: u64, property: LandProperity
     );
     fn is_mature(self: @TContractState, land_id: usize) -> bool;
+    fn gain(self: @TContractState, land_id: usize);
 }
 
 #[dojo::contract]
@@ -20,7 +21,7 @@ mod land_actions {
     use starknet::{ContractAddress, get_caller_address, get_block_timestamp};
     use core::traits::PartialOrd;
 
-    use dojo_examples::models::{Land, LandProperity, Owner, Seed, SeedOwner};
+    use dojo_examples::models::{Land, LandProperity, Owner, Seed, SeedOwner, CropOwner};
     use dojo_examples::utils::{get_land_propetry, get_seed};
 
     use super::ILandActions;
@@ -32,6 +33,7 @@ mod land_actions {
         Assart: Assart,
         GetSeed: GetSeed,
         PlantSeed: PlantSeed,
+        Harvest: Harvest,
     }
 
     #[derive(Drop, starknet::Event)]
@@ -59,6 +61,13 @@ mod land_actions {
         land_id: usize,
         seed: felt252
     }
+
+    #[derive(Drop, starknet::Event)]
+    struct Harvest {
+        land_id: usize,
+        crop_amount: felt252,
+        seed_amount: felt252
+    }  
 
     #[external(v0)]
     impl LandActionsImpl of ILandActions<ContractState> {
@@ -151,7 +160,7 @@ mod land_actions {
 
         fn is_mature(self: @ContractState, land_id: usize) -> bool {
             let world = self.world_dispatcher.read();
-            let mut land = get!(world, land_id, (Land));
+            let land = get!(world, land_id, (Land));
             let initialized = land.owner.is_zero();
 
             assert(!initialized, 'Not Assart');
@@ -176,6 +185,24 @@ mod land_actions {
                 }
             }
         }
+
+        fn gain(self: @ContractState, land_id: usize) {
+            let world = self.world_dispatcher.read();
+            let matured = self.is_mature(land_id);
+            let palyer = get_caller_address();
+
+            assert(matured, 'Not Matured');
+
+            let land = get!(world, land_id, Land);
+            let mut crop_amount = get!(world, (land_id, land.seed), CropOwner);
+            let mut seed_owner = get!(world, (palyer, land.seed), SeedOwner);
+            
+            crop_amount.amount += 10;
+            seed_owner.amount += 1;
+
+            set!(world, (seed_owner, crop_amount));
+            emit!(world, Harvest { land_id: land_id, crop_amount: 10, seed_amount: 1 })
+        }
     }
 }
 
@@ -189,7 +216,7 @@ mod tests {
 
     use dojo::test_utils::{spawn_test_world, deploy_contract};
 
-    use dojo_examples::models::{Land, SeedOwner, LandProperity, Seed};
+    use dojo_examples::models::{Land, SeedOwner, LandProperity, Seed, CropOwner};
     use dojo_examples::models::land;
 
     use super::{land_actions, ILandActionsDispatcher, ILandActionsDispatcherTrait};
@@ -332,5 +359,44 @@ mod tests {
 
         assert_eq(@seed_config.growth_time, @36000_u64, 'GrowthConfig');
         assert_eq(@seed_config.property.into(), @1, 'PropConfig');
+    }
+
+    #[test]
+    #[available_gas(30000000)]
+    #[should_panic(expected: ('Not Matured', 'ENTRYPOINT_FAILED',))]
+    fn test_fail_not_mature() {
+        let caller = starknet::contract_address_const::<0x1>();
+        let (world, land_actions_system) = set_up();
+        config_seed(land_actions_system);
+
+        set_block_timestamp(2);
+
+        set_contract_address(caller);
+        land_actions_system.user_initialize();
+        land_actions_system.assart();
+        land_actions_system.plant(0, 'NorSed');
+
+        land_actions_system.gain(0);
+    }
+
+    #[test]
+    #[available_gas(30000000)]
+    fn test_gaint() {
+        let caller = starknet::contract_address_const::<0x1>();
+        let (world, land_actions_system) = set_up();
+        config_seed(land_actions_system);
+
+        set_block_timestamp(2);
+
+        set_contract_address(caller);
+        land_actions_system.user_initialize();
+        land_actions_system.assart();
+        land_actions_system.plant(0, 'NorSed');
+
+        set_block_timestamp(370000);
+        land_actions_system.gain(0);
+
+        let crop_amount = get!(world, (0, 'NorSed'), CropOwner);
+        assert_eq(@crop_amount.amount, @10, 'GainErr')
     }
 }
