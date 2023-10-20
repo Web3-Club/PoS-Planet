@@ -239,7 +239,8 @@ DAO移民携带着地球普通种子，却不清楚该种子难以适应这颗�
 
 [![contrib graph](https://contrib.rocks/image?repo=Web3-Club/Chain-Farm)](https://github.com/Web3-Club/Chain-Farm/graphs/contributors)
 
-
+## 致谢
+感谢 [fangting](https://twitter.com/fangtingeth) 为本项目作出的指导
 
 
 ## 参考文献及资料
